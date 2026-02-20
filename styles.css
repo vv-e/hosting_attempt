@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(33, 33, 33);
+  margin: 0;
+  padding: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+#reviews img {
+  width: 100px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+main {
+  display: flex;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}

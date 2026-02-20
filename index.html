@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ix's Technical Book Reviews</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1>Ix's Technical Book Reviews</h1>
+
+    <nav class="navigation">
+      <ul>
+        <li id="nav-el-1"><a href="#home">Home</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#browse">Browse</a></li>
+        <li><a href="#contact-form">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="featured">
+        <!-- Main featured book -->
+        <section id="home">
+          <img
+            id="featured-book"
+            class="book-cover"
+            src="image/build_a_llm.png"
+            alt="Build a LLM Book Cover"
+          />
+          <h3>Build a Large Language Model</h3>
+          <h4>by Sebastian Raschka</h4>
+          <p>
+            A practical, hands-on guide to understanding and building large
+            language models from scratch.
+          </p>
+        </section>
+
+        <!-- Other books -->
+        <aside id="reviews">
+          <h3>More Reviews</h3>
+          <ul>
+            <li>
+              <img
+                src="image/eloquent_js.png"
+                alt="Eloquent JavaScript Book Cover"
+              />
+            </li>
+            <li>
+              <img
+                src="image/you_dont_know_js.png"
+                alt="You Don't Know JS Book Cover"
+              />
+            </li>
+            <li>
+              <img src="image/statquest.png" alt="StatQuest Book Cover" />
+            </li>
+            <li>
+              <img
+                src="image/automate_boring_stuff.png"
+                alt="Automate the Boring Stuff Book Cover"
+              />
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </main>
+    <footer>Ix © 2026 WebDev Workshop</footer>
+  </body>
+</html>
